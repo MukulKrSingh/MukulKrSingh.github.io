@@ -108,31 +108,15 @@ function initializeBackToTop() {
 
 // Initialize Contact Form
 function initializeContactForm() {
-    const contactForm = document.getElementById('contactForm');
+    // Contact form handling is now managed by FormSubmit service
+    // No JavaScript interaction needed as the form uses action="https://formsubmit.co/email@example.com"
+    // The form will be submitted directly to FormSubmit which will handle email delivery
     
+    // We can add form validation if needed
+    const contactForm = document.getElementById('contactForm');
     if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const subject = document.getElementById('subject').value;
-            const message = document.getElementById('message').value;
-            
-            // Encode the email body
-            const body = encodeURIComponent(
-                `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
-            );
-            
-            // Open mail client with pre-filled email
-            window.location.href = `mailto:${personalInfo.email}?subject=${encodeURIComponent(subject)}&body=${body}`;
-            
-            // Reset the form
-            contactForm.reset();
-            
-            // Show success message (you can improve this with a toast notification)
-            alert('Thank you for your message! I will get back to you soon.');
-        });
+        // Add any additional client-side validation here if needed
+        console.log("Contact form initialized with FormSubmit service");
     }
 }
 

@@ -38,7 +38,7 @@ Currently serving as Lead Software Engineer at GoEasyCare (Canada's leading heal
 3. **Experience**: Timeline of professional work history with achievements
 4. **Projects**: Showcase of key projects with descriptions and technologies
 5. **Skills**: Technical skills organized by category
-6. **Contact**: Interactive contact form with direct email integration
+6. **Contact**: Functional contact form with direct email delivery using FormSubmit
 
 ## 🛠️ Technical Implementation
 
@@ -49,6 +49,7 @@ Currently serving as Lead Software Engineer at GoEasyCare (Canada's leading heal
 - **Particles.js**: For interactive particle background
 - **Font Awesome**: For icons
 - **Google Fonts**: For typography
+- **FormSubmit**: Server-less form processing for contact form
 
 ### Dynamic Content Management
 All portfolio content is stored in `assets/js/content.js` for easy maintenance, allowing for updates without changing the core HTML or CSS. This separation makes the portfolio extremely maintainable.
@@ -59,6 +60,16 @@ The portfolio is built with a mobile-first approach, ensuring optimal viewing ex
 - **Desktop**: Full content display with optimized spacing
 - **Tablet**: Responsive grid adjustments for medium-sized screens
 - **Mobile**: Optimized layouts with collapsible navigation and stacked content
+
+## ✉️ Contact Form Functionality
+
+The portfolio features a fully functional contact form that allows visitors to send messages directly to your email without requiring a backend server:
+
+- **FormSubmit Integration**: Uses FormSubmit.co service to deliver messages to your inbox
+- **Custom Thank You Page**: Provides feedback to users after message submission
+- **Form Validation**: Client-side validation ensures all required fields are completed
+- **No Backend Required**: Works perfectly with GitHub Pages static hosting
+- **Spam Protection**: Basic protection against spam messages
 
 ## 🚀 Deployment Guide
 
@@ -137,6 +148,20 @@ const projects = [
     // Add more projects
 ];
 ```
+
+### Customizing Contact Form
+To update the contact form email destination:
+
+1. Change the form action in `index.html`:
+   ```html
+   <form class="contact-form" id="contactForm" action="https://formsubmit.co/your-email@example.com" method="POST">
+   ```
+
+2. Update the hidden fields as needed:
+   ```html
+   <input type="hidden" name="_subject" value="Custom Subject Line">
+   <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+   ```
 
 ## 📄 License
 
