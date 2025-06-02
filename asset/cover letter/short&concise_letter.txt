@@ -1,0 +1,16 @@
+[Your Name]
+[Your Address]
+[Your Phone Number]
+[Your Email]
+[Your LinkedIn Profile URL]
+[Date]
+[Hiring Manager Name (if known), or "Hiring Team"]
+[Hiring Manager Title]
+[Company Name]
+[Company Address]
+Dear [Mr./Ms./Mx. Last Name or Hiring Team],
+I am writing to express my strong interest in the [Job Title] position at [Company Name]. As a Senior Software Engineer with over 5 years of experience, I specialize in full-stack development, excelling in both Flutter mobile applications and GoLang backend systems.
+My career highlights include leading a key project migration to Flutter, improving performance by 100%, and developing robust GoLang backends with GraphQL APIs for critical healthcare solutions. I consistently achieve quantifiable results, such as enhancing team productivity by 60% through Flutter trainings and improving code quality by 40%.
+I am eager to leverage my expertise to contribute to your team's success. Thank you for your time and consideration.
+Sincerely,
+Mukul Singh

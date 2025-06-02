@@ -1,0 +1,49 @@
+Mukul Singh
+Sr. Software Engineer | Flutter Developer (Main) | Full-Stack Developer (GoLang)
+singhmukul96@gmail.com | Greater Noida, India | @Mukul_Singh404 | medium.com/@singhmukul96
++91-8595321667, +91-8373928887 | inlinkedin.com/in/mukul-kumar-singh-50356a159 | github.com/MukulKrSingh
+Summary
+Highly skilled Senior Software Engineer with a primary focus on developing high-performance and intuitive mobile applications using Flutter. Adept at crafting engaging user interfaces, integrating complex APIs, and leading mobile development initiatives. Complemented by strong backend expertise in GoLang, I deliver robust full-stack solutions, from scalable APIs to seamless user experiences.
+Skills
+Mobile Development: Flutter, Android, Riverpod, Bloc, GetX, Agora
+Backend & Cloud: GoLang, Gin, GraphQL, MongoDB, Open Telemetry, MCP, Firebase
+DevOps & Tools: GitHub, Code Magic, JIRA, Docker (Implied from containerized deployment)
+Languages: Java, C/C++
+Work Experience
+Lead Software Engineer | GoEasyCare | Canada
+07/2024 – 06/2025 (Expected)
+Lead development of key modules for Canada's leading healthcare workforce management solution, GoEasyCare, with significant contributions to Flutter-based mobile applications and backend functionalities.
+Re-structured the backend (GoLang) ensuring proper standards were followed, enhancing system scalability and maintainability.
+Utilizing AI-driven development and tracing, ensuring low development time and fast resolutions.
+Contact: References available upon request
+Senior Software Engineer | Bacancy Software LLP | India
+03/2022 – 07/2024
+Received On-Spot Award for delivering comprehensive Flutter trainings to 3 junior developers, enhancing team productivity by 60%.
+Consistently received positive client feedback for delivering high-quality software solutions and exceeding project expectations on multiple projects.
+Handled a team of 8 developers leading to a successful and timely goals achievement.
+Contact: References available upon request
+System Engineer | Tata Consultancy Services Ltd. | India
+09/2019 – 03/2022
+Led the successful migration of a key project to Flutter, improving performance by 100% and reducing maintenance overhead by 90%.
+Conducted code reviews for 2 associates, identifying and resolving 5 critical issues, and improving code quality by 40%.
+Managed client escalations and ensured timely product delivery for multiple projects, resulting in an 80% reduction in post-launch issues.
+Contact: References available upon request
+Projects
+GEC Kiosk + Mobile (07/2024 – 06/2025)
+Developed and maintained the Flutter-based GoEasyCare Kiosk and Mobile applications, integrating seamlessly with the GoLang backend.
+Designed and implemented intuitive user interfaces and robust mobile features for healthcare workforce management.
+Developed and maintained the backend written in GoLang with GraphQL-based API, backed by MongoDB, and implemented containerized deployment pipelines.
+ION Bsense - Battery Management System (03/2022 – 06/2024)
+Contributed as a Flutter Developer to the ION Bsense Battery Management System, focusing on real-time data visualization and user interface development for monitoring and management.
+The Stunt (03/2023 – 05/2024)
+Served as a Flutter Developer for 'The Stunt' application, responsible for comprehensive front-end development, API integration, and UI/UX implementation to deliver a social media app built around US sports.
+GIA - Gemmology Institute of America App (09/2019 – 03/2022)
+Contributed to the GIA App, which provides a wealth of diamond resources, including 4Cs interactive tools, expert articles, videos, and secure database access for reports.
+Implemented UI for interactive tools, API integration for report access, and video playback features (using Android platform capabilities).
+Collaborated with product owners and designers to enhance the app's functionality and user experience.
+Education
+Btech (IT) | Dr. Abdul Kalam Technical University
+08/2015 – 08/2019
+Languages
+English: Full Professional Proficiency
+Hindi: Native or Bilingual Proficiency
