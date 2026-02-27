@@ -24,6 +24,16 @@ const personalInfo = {
 // Work Experience
 const experience = [
     {
+        position:"Sr Consultant",
+        company: "KBridge Consulting Services",
+        period: "Aug 2025 - Current",
+        location: "Noida",
+        description: "Contracted with KBridge Consulting Services, deputed to Infosys as a Senior Consultant.At Infosys, I’m contributing to a dimensioning solution for Nokia, focused on scalable system design, capacity planning, and performance optimization.",
+        achievements:[
+            "Received a RISE award for my contribution in building/desigining the product from scratch"
+        ],
+    },
+    {
         position: "Lead Software Engineer",
         company: "GoEasyCare",
         period: "07/2024 - 06/2025",
@@ -64,6 +74,12 @@ const experience = [
 // Projects
 const projects = [
     {
+        title: "Nokia NGDS",
+        period: "08/2025 - Ongoing",
+        description: "Developing Golang backend services for telecom dimensioning and capacity planning systems.• Supporting Kubernetes-based deployments and performance-sensitive workloads.",
+        technologies: ["GoLang", "GraphQL", "MariaDB", "Docker","Redis","Kafka","Prometheus","Grafana","fluentD"]
+    },
+    {
         title: "GEC Kiosk + Mobile",
         period: "07/2024 - 06/2025",
         description: "Developed and maintained the Flutter-based GoEasyCare Kiosk and Mobile applications for healthcare workforce management, integrated with a GoLang backend using GraphQL API and MongoDB.",
@@ -92,9 +108,12 @@ const projects = [
 // Skills
 const skills = {
     mobile: ["Flutter", "Android", "Riverpod", "Bloc", "GetX", "Agora"],
-    backend: ["GoLang", "Gin", "GraphQL", "MongoDB", "Open Telemetry", "MCP", "Firebase"],
+    backend: ["GoLang", "Gin", "GraphQL", "Open Telemetry", "MCP", "Firebase","Redis","Kafka"],
     devops: ["GitHub", "Code Magic", "JIRA", "Docker"],
-    languages: ["Java", "C/C++", "English", "Hindi"]
+    languages: ["English", "Hindi"],
+    database:["MongoDB","MariaDB","Postgres"],
+    
+
 };
 
 // Particles.js Configuration

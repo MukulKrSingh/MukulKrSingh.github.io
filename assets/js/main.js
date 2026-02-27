@@ -234,6 +234,8 @@ function populateContent() {
     populateSkills('backendSkills', skills.backend);
     populateSkills('devopsSkills', skills.devops);
     populateSkills('languageSkills', skills.languages);
+    populateSkills('databaseSkill', skills.database);
+
 }
 
 // Helper function to populate skills
