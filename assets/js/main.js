@@ -37,8 +37,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize scroll animations
     initializeScrollAnimations();
     
-    // Set current year in the footer
+        // Set current year in the footer
     document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Initialize testimonial slideshow
+        initializeTestimonialSlideshow();
 });
 
 // Initialize Theme
@@ -244,4 +247,54 @@ function populateSkills(containerId, skillsList) {
         skillTag.textContent = skill;
         container.appendChild(skillTag);
     });
+
+// Testimonial Slideshow
+function initializeTestimonialSlideshow() {
+    const testimonialFolder = 'assets/testimonial/';
+    const slideshowContainer = document.getElementById('testimonialSlideshow');
+    if (!slideshowContainer) return;
+
+    // List of testimonial image filenames
+    const imageFiles = [
+        'tanshai_infy.png'
+        // Add more filenames here as you add images
+    ];
+
+    if (imageFiles.length === 0) {
+        slideshowContainer.innerHTML = '<p>No testimonials yet.</p>';
+        return;
+    }
+
+    // Create slideshow elements
+    let current = 0;
+    const img = document.createElement('img');
+    img.src = testimonialFolder + imageFiles[current];
+    img.className = 'testimonial-slide';
+    slideshowContainer.appendChild(img);
+
+    // Navigation
+    const prevBtn = document.createElement('button');
+    prevBtn.textContent = '<';
+    prevBtn.className = 'testimonial-nav testimonial-prev';
+    const nextBtn = document.createElement('button');
+    nextBtn.textContent = '>';
+    nextBtn.className = 'testimonial-nav testimonial-next';
+    slideshowContainer.appendChild(prevBtn);
+    slideshowContainer.appendChild(nextBtn);
+
+    prevBtn.addEventListener('click', () => {
+        current = (current - 1 + imageFiles.length) % imageFiles.length;
+        img.src = testimonialFolder + imageFiles[current];
+    });
+    nextBtn.addEventListener('click', () => {
+        current = (current + 1) % imageFiles.length;
+        img.src = testimonialFolder + imageFiles[current];
+    });
+
+    // Auto-slide every 5 seconds
+    setInterval(() => {
+        current = (current + 1) % imageFiles.length;
+        img.src = testimonialFolder + imageFiles[current];
+    }, 5000);
+}
 }

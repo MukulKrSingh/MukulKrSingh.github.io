@@ -58,6 +58,62 @@ body {
     font-family: var(--body-font);
     line-height: 1.6;
     color: var(--text-color);
+
+/* ==================== TESTIMONIAL SLIDESHOW ==================== */
+#testimonial .testimonial-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.testimonial-slideshow {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.testimonial-slide {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: var(--border-radius);
+    transition: opacity 0.5s;
+}
+
+.testimonial-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0.85;
+    transition: background 0.2s;
+}
+.testimonial-prev {
+    left: 10px;
+}
+.testimonial-next {
+    right: 10px;
+}
+.testimonial-nav:hover {
+    background: var(--accent-color);
+}
     background-color: var(--background-color);
     transition: var(--transition);
 }
