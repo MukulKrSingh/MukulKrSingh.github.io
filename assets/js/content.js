@@ -109,7 +109,7 @@ const projects = [
 const skills = {
     mobile: ["Flutter", "Android", "Riverpod", "Bloc", "GetX", "Agora"],
     backend: ["GoLang", "Gin", "GraphQL", "Open Telemetry", "MCP", "Firebase","Redis","Kafka"],
-    devops: ["GitHub", "Code Magic", "JIRA", "Docker"],
+    devops: ["GitHub", "Code Magic", "JIRA", "Docker","Kubernetes","Jenkins","CI/CD"],
     languages: ["English", "Hindi"],
     database:["MongoDB","MariaDB","Postgres"],
     
