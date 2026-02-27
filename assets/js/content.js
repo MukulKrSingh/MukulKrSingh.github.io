@@ -108,12 +108,9 @@ const projects = [
 // Skills
 const skills = {
     mobile: ["Flutter", "Android", "Riverpod", "Bloc", "GetX", "Agora"],
-    backend: ["GoLang", "Gin", "GraphQL", "Open Telemetry", "MCP", "Firebase","Redis","Kafka"],
+    backend: ["GoLang", "Gin", "GraphQL", "Open Telemetry", "MCP", "Firebase","Redis","Kafka","MongoDB","MariaDB","Postgres"],
     devops: ["GitHub", "Code Magic", "JIRA", "Docker","Kubernetes","Jenkins","CI/CD"],
     languages: ["English", "Hindi"],
-    database:["MongoDB","MariaDB","Postgres"],
-    
-
 };
 
 // Particles.js Configuration

@@ -233,8 +233,8 @@ function populateContent() {
     populateSkills('mobileSkills', skills.mobile);
     populateSkills('backendSkills', skills.backend);
     populateSkills('devopsSkills', skills.devops);
-    populateSkills('databaseSkills', skills.database);
     populateSkills('languageSkills', skills.languages);
+
 
 }
 
