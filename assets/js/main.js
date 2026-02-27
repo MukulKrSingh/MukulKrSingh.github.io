@@ -240,15 +240,15 @@ function populateContent() {
 function populateSkills(containerId, skillsList) {
     const container = document.getElementById(containerId);
     if (!container) return;
-    
     skillsList.forEach(skill => {
         const skillTag = document.createElement('span');
         skillTag.className = 'skill-tag';
         skillTag.textContent = skill;
         container.appendChild(skillTag);
     });
+}
 
-// Testimonial Slideshow
+// Testimonial Slideshow (moved to top-level)
 function initializeTestimonialSlideshow() {
     const testimonialFolder = 'assets/testimonial/';
     const slideshowContainer = document.getElementById('testimonialSlideshow');
@@ -297,4 +297,4 @@ function initializeTestimonialSlideshow() {
         img.src = testimonialFolder + imageFiles[current];
     }, 5000);
 }
-}
+
