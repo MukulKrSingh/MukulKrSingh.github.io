@@ -258,7 +258,8 @@ function initializeTestimonialSlideshow() {
 
     // List of testimonial image filenames
     const imageFiles = [
-        'tanshai_infy.png'
+        'tanshai_infy.png',
+        'infy_testimonial.png'
         // Add more filenames here as you add images
     ];
 
