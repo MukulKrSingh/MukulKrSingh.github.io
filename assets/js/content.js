@@ -92,7 +92,7 @@ const projects = [
     },
     {
         title: "Nokia NGDS",
-        period: "08/2025 - Ongoing",
+        period: "08/2025 - 03/2026",
         description: "Developing Golang backend services for telecom dimensioning and capacity planning systems.• Supporting Kubernetes-based deployments and performance-sensitive workloads.",
         technologies: ["GoLang", "GraphQL", "MariaDB", "Docker","Redis","Kafka","Prometheus","Grafana","fluentD"]
     },
