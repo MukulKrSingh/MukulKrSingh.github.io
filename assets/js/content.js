@@ -11,7 +11,7 @@ const personalInfo = {
     title: "Sr. Software Engineer",
     tagline: "Golang Developer | Flutter Developer | Full-Stack Engineer",
     email: "singhmukul96@gmail.com",
-    phone: "+91-8595321667, +91-8373928887",
+    phone: "+91-8595321667",
     location: "Greater Noida, India",
     linkedIn: "https://linkedin.com/in/mukul-kumar-singh-50356a159",
     github: "https://github.com/MukulKrSingh",
@@ -24,9 +24,20 @@ const personalInfo = {
 // Work Experience
 const experience = [
     {
+        position:"Technical Lead",
+        company: "HCLTech",
+        period: "Mar 2026 - Present",
+        location: "Noida",
+        description: "HCLTech is Indian home grown service provider & I am working in ERS division to help catch frauds",
+        achievements:[
+            "Integrating with several FIU's",
+            "Kudos received for my contributions"
+        ],
+    },
+    {
         position:"Sr Consultant",
         company: "KBridge Consulting Services",
-        period: "Aug 2025 - Current",
+        period: "Aug 2025 - Mar 2026",
         location: "Noida",
         description: "Contracted with KBridge Consulting Services, deputed to Infosys as a Senior Consultant.At Infosys, I’m contributing to a dimensioning solution for Nokia, focused on scalable system design, capacity planning, and performance optimization.",
         achievements:[
@@ -73,6 +84,12 @@ const experience = [
 
 // Projects
 const projects = [
+    {
+        title: "Sardine AI",
+        period: "04/2026 - Ongoing",
+        description: "Making sure the tank is free from fraud and prevent any bad fishes.",
+        technologies: ["GoLang", "REST", "Postgres", "Docker","Datadog","GCP","AWS","React","ArgoCD"]
+    },
     {
         title: "Nokia NGDS",
         period: "08/2025 - Ongoing",
